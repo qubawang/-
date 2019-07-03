@@ -1,0 +1,204 @@
+/*
+ * 参考案例地址：
+ * http://ent.163.com/special/2015yulephoto_h5/#!/scene-1 
+ * 
+ * CSS3帧动画地址
+ * https://daneden.github.io/animate.css/
+ */
+
+/* 第一页 */
+.page1 {
+	background: url(../image/背景.png) no-repeat;
+	background-size: cover;
+}
+
+.page1 img {
+	position: absolute;
+}
+
+.page1 img:nth-of-type(1) {
+	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
+	width: .25rem;
+	height: .18rem;
+	left: .15rem;
+	top: .15rem;
+}
+.page1 img:nth-of-type(2) {
+	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
+	width: .29rem;
+	height: .2rem;
+	left: .5rem;
+	top: .13rem;
+}
+
+.page1 img:nth-of-type(4) {
+	width: 3.75rem;
+	height: 2.15rem;
+	bottom: .3rem;
+	right: 0;
+}
+
+.page1 img:nth-of-type(3) {
+	width: 3rem;
+	height: 6rem;
+	left: .4rem;
+	top: 0.7rem;
+}
+
+.page1 img:nth-of-type(5) {
+	width: 1.8rem;
+	height: .1rem;
+	left: 0.93rem;
+	bottom: 2.75rem;
+}
+
+.page1 img:nth-of-type(6) {
+	width: .9rem;
+	height: .24rem;
+	left: 1.4rem;
+	bottom: 2.9rem;
+}
+
+.page1 img:nth-of-type(7) {
+	width: 1rem;
+	height: 1.8rem;
+	right: 0.23rem;
+	bottom:3rem;
+}
+
+
+/* PAGE2 */
+.page2 {
+	background: url(../image/背景.png) no-repeat;
+	background-size: cover;
+}
+
+.page2 img {
+	position: absolute;
+}
+
+.page2 img:nth-of-type(1) {
+	width: 0.7rem;
+	height: 0.3rem;
+	left: 0.55rem;
+	top: .35rem;
+}
+
+.page2 img:nth-of-type(2){
+	width:2.7rem;
+	height: 1.5rem;
+	left: 0.5rem;
+	top:1rem;
+}
+.page2 img:nth-of-type(3) {
+	width: 2.7rem;
+	height: 3.3rem;
+	top: 2.7rem;
+	left: 0.5rem;
+}
+
+.page2 img:nth-of-type(2){
+	right: .6rem;
+}
+
+/*.page2 img:nth-of-type(3){
+	left: 50%;
+	margin-left:.04rem; 
+}
+
+.page2 img:nth-of-type(4){
+	left: .95rem;
+}*/
+/*pega 3*/
+.page3 {
+	background: url(../image/背景.png) no-repeat;
+	background-size: cover;
+}
+
+.page3 img {
+	position: absolute;
+}
+
+.page3 img:nth-of-type(1){
+	width: 2.5rem;
+	height: 1.5rem;
+	left: .27rem;
+	top: .75rem;
+
+}
+.page3 img:nth-of-type(2){
+	width: 2。2rem;
+	height: 1.8rem;
+	bottom: 2.8rem;
+	right: 0.3rem;
+
+}
+.page3 img:nth-of-type(3){
+	width: 2.5rem;
+	height: 1.5rem;
+	left: .27rem;
+	bottom: 0.8rem;
+
+}
+/*pega 4*/
+.page4 {
+	background: url(../image/背景.png) no-repeat;
+	background-size: cover;
+}
+
+.page4 img {
+	position: absolute;
+}
+
+.page4 img:nth-of-type(1){
+	width: 3.25rem;
+	height:.2rem;
+	left: .27rem;
+	top: .7rem;
+}
+.page4 img:nth-of-type(2){
+	width: 1.5rem;
+	height:2.9rem;
+	left: .27rem;
+	top: 1.3rem;
+}
+.page4 img:nth-of-type(3){
+	width: 1.4rem;
+	height:1.4rem;
+	right: .27rem;
+	top: 1.3rem;
+}
+.page4 img:nth-of-type(4){
+	width: 1.4rem;
+	height:1.4rem;
+	right: .27rem;
+	top: 2.8rem;
+}
+.page4 img:nth-of-type(5){
+	width: 3.25rem;
+	height:1.6rem;
+	left: .27rem;
+	top: 4.3rem;
+}
+.page4 img:nth-of-type(6){
+	width: 3.25rem;
+	height:0.2rem;
+	left: .27rem;
+	bottom: .7rem;
+}
+.page5 {
+	background: url(../image/背景.png) no-repeat;
+	background-size: cover;
+}
+
+.page5 img {
+	position: absolute;
+}
+
+.page5 img:nth-of-type(1){
+	width: 2.7rem;
+	height: 2.7rem;
+	left: 0.5rem;
+	top:0.5rem;
+}
+
